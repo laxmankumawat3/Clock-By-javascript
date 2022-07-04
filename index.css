@@ -1,0 +1,98 @@
+#clockContainer{
+    background: url('clock.png');
+    width: 40vw;
+    height: 40vw;
+    background-size: 100%;
+    /* border: 2px solid black; */
+    margin: auto;
+    position: relative;
+}
+#hour,#minute,#second{
+    position: absolute;
+    background: #250606;
+    border-radius: 60px;
+    transform-origin: bottom;
+
+}
+#hour{
+    width: 8px;
+    height: 72px;
+    top: 36%;
+    left: 49.3%;
+    
+  
+
+}
+#minute{
+    width: 6px;
+    height: 105px;
+    top: 30%;
+    left: 49.3%;
+    
+}
+#second{
+    
+    width: 4px;
+    height: 120px;
+     top: 26%;
+    left: 49.3%;
+    
+  
+    
+}
+.container{
+    display: flex;
+}
+#timer{
+    display: flex;
+}
+#hours{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    margin: 2px 3px ;
+}
+#minutes{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    margin: 2px 3px ;
+}
+#seconds{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    margin: 2px 3px ;
+}
+
+#date{
+    padding:4px 20px;
+    border: 2px solid rgb(205, 105, 5);
+    outline: none;
+    margin: auto;
+    background-color: black;
+    color: white;
+    margin-right: 4px;
+}
+#month{
+    padding:4px 20px;
+    border: 2px solid rgb(174, 215, 24);
+    outline: none;
+    margin: auto;
+    background-color: black;
+    color: white;
+    margin-right: 4px;
+}
+#year{
+    padding:4px 20px;
+    border: 2px solid rgb(20, 143, 231);
+    outline: none;
+    margin: auto;
+    background-color: black;
+    color: white;
+    margin-right: 4px;
+}
+.Data{
+display: flex;
+margin-top: 12px;
+}
